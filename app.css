@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
+    background: rgba(0, 0, 0, .1);
+}
+
+#carouselExampleIndicators {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(imgs/store-front1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+    background: url(imgs/store-front2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+    background: url(imgs/comic-spread1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
