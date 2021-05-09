@@ -1,45 +1,55 @@
+/* Start of Navbar CSS */
 .navbar {
-    position: fixed;
-    top: 0;
-    z-index: 9;
-
-    background: rgba(0, 0, 0, .1);
+    background-color: rgba(34, 34, 34, 0);
+    padding: 0;
+}
+#mainNavbar .navbar-brand {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 0;
 }
 
-#carouselExampleIndicators {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+#mainNavbar .nav-link {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
 }
 
-#carouselExampleIndicators .carousel-inner{
-    position: relative;
-    height: 100vh;
-    width: 100%;
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
 }
+/* End of Navbar CSS */
 
+/* End of Carousel CSS */
 #carouselExampleIndicators .carousel-inner .carousel-item{
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(1){
     background: url(imgs/store-front1.jpg);
+    filter: brightness(60%);
     background-size: cover;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
     background: url(imgs/store-front2.jpg);
+    filter: brightness(60%);
     background-size: cover;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
     background: url(imgs/comic-spread1.jpg);
+    filter: brightness(60%);
     background-size: cover;
     background-position: center;
 }
-
-.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-  }
+/* End of Carousel CSS */
