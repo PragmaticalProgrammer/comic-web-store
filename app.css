@@ -4,7 +4,7 @@
 }
 #mainNavbar .navbar-brand {
     font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     padding-bottom: 0;
 }
@@ -21,6 +21,7 @@
 
 #mainNavbar .nav-link:hover {
     color: #EA1C2C;
+    font-size: 1.7rem;
 }
 /* End of Navbar CSS */
 
@@ -32,23 +33,34 @@
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(1){
-    background: url(imgs/store-front1.jpg);
-    filter: brightness(60%);
+    background: url(imgs/darkened-storefront1.png);
     background-size: cover;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-    background: url(imgs/store-front2.jpg);
-    filter: brightness(60%);
+    background: url(imgs/darkened-storefront2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-    background: url(imgs/comic-spread1.jpg);
-    filter: brightness(60%);
+    background: url(imgs/darkened-storefront1.png);
     background-size: cover;
     background-position: center;
 }
+
+#carouselExampleIndicators .carousel-inner .carousel-item h2{
+    color: white;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+    color: white;
+    margin: 0;
+    width: 50%;
+}
+
 /* End of Carousel CSS */
